@@ -2,7 +2,7 @@ require('dotenv').config();
 const express = require('express');
 const server = express();
 const PORT = process.env.PORT || 6060;
-server.use(express.json());
+
 
 
 server.get('/', (req, res) => {
